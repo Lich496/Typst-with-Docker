@@ -12,9 +12,11 @@
   },
   "license": "Apache-2.0",
   "categories": [
-    "Other"
+    "Programming Languages",
+    "Snippets"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -22,7 +24,11 @@
         "command": "typst-with-docker.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "menus": {
+      "editor/title": [
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
