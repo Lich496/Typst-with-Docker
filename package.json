@@ -10,6 +10,7 @@
     "type": "git",
     "url": "https://github.com/Lich496/Typst-with-Docker.git"
   },
+  "license": "Apache-2.0",
   "categories": [
     "Other"
   ],
